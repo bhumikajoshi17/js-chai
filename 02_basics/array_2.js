@@ -18,7 +18,7 @@ const realAnotherArray=anotherArray.flat(Infinity)
 console.log(realAnotherArray);
 
 console.log(Array.isArray("hitesh"));
-console.log(Array.from("hitesh"));
+console.log(Array.from("hitesh"));//it converts string "hitesh" to an array
 console.log(Array.from({name:"hitesh"}));  //interesting
 
 let score1=100
