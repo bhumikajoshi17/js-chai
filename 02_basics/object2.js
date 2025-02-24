@@ -42,16 +42,48 @@ const users =[
   }
 ]
 
-users[1].email;
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));//imp
-console.log(Object.values(tinderUser));//output->array
-console.log(Object.entries(tinderUser));//har key value ko array m bna dete h
+// users[1].email;
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));//imp
+// console.log(Object.values(tinderUser));//output->array
+// console.log(Object.entries(tinderUser));//har key value ko array m bna dete h
 
 //console.log(tinderUser.hasOwnProperty("isLoggedIn"));//question puchne k liye h but ye method syd ab function ni h i.e. not in use
 
 
+//json-->java script object notation 
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor: "hitesh"
+}
 
+//course.courseInstructor // -->access
+
+//const {courseInstructor } =course
+//object destructure:
+const {courseInstructor:instructor } =course
+
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+const navbar = () => {
+
+}
+
+//api,(json-->key:value dono string hoti h ...numbers and true/false ko chd k)
+// {
+//   "naame":"bhumika",
+//   "coursename":"js in hindi ",
+//   "price":"free"
+// }
+
+[
+  {},
+  {},
+  {}
+]
 
 
 
