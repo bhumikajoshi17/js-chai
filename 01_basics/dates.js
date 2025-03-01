@@ -11,10 +11,10 @@ let myDate =new Date()
 // console.log(typeof myDate);
 
 //let myCreatedDate = new Date(2023, 0 , 23) // month start with 0 when we pass values like an array
-//let myCreatedDate = new Date(2023, 0 , 23,5,3)
+let myCreatedDate = new Date(2023, 0 , 23,5,3)
 //let myCreatedDate = new Date("2023-01-14")//month start with 1 here
-let myCreatedDate = new Date("01-14-2023")
-//console.log(myCreatedDate.toLocaleString());
+//let myCreatedDate = new Date("01-14-2023")
+console.log(myCreatedDate.toLocaleString());
 
 let myTimeStamp = Date.now()
 // console.log(myTimeStamp);
@@ -25,7 +25,7 @@ let myTimeStamp = Date.now()
 
 
 let newDate = new Date()
-console.log(newDate);
+//console.log(newD/ate);
 console.log(newDate.getMonth()+1); //+1 for user appearance
 console.log(newDate.getDay());
 
